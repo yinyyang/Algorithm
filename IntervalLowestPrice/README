@@ -1,0 +1,12 @@
+When  we collect prices in mutiple period，price is dynamic，Period is overlap,like this:
+ start  end  price
+   1     5    10
+   3     6    5
+   
+then,we need find a result of lowest price in a no-repeat and continuous period, so above data  should return :
+
+1,3,10
+3,6,5
+
+
+
